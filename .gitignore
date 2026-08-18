@@ -1,0 +1,12 @@
+# Älä vie salaisuuksia tai tietokantadataa versiohallintaan
+.env
+db-data/
+
+# Jos peilasit koko WordPressin, jätä ydin pois ja vie vain omat koodit
+wp-admin/
+wp-includes/
+wp-*.php
+index.php
+xmlrpc.php
+license.txt
+readme.html
